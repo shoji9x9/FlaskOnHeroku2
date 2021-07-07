@@ -27,6 +27,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Procfile">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="FlaskOnHeroku2\__init__.py" />
     <Compile Include="FlaskOnHeroku2\views.py" />
@@ -67,6 +70,7 @@
     <Content Include="FlaskOnHeroku2\templates\contact.html" />
     <Content Include="FlaskOnHeroku2\templates\index.html" />
     <Content Include="FlaskOnHeroku2\templates\layout.html" />
+    <Content Include="runtime.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
