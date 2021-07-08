@@ -1,1 +1,1 @@
-web: python FlaskOnHeroku2/views.py
+web: gunicorn FlaskOnHeroku2.views:app --log-file -
