@@ -1,0 +1,5 @@
+# FlaskOnHeroku2
+Visual Studioで作ったFlaskアプリをGitHub経由でHerokuにデプロイする方法を調査するために利用したコードです。
+
+# FlaskOnHerokuとの違い
+こちらはVisual Studioで新しくプロジェクトを作るときに「ソリューションとプロジェクトを同じディレクトリに配置する」を選択しています。
